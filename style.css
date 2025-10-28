@@ -112,7 +112,7 @@ span{
     overflow-y: hidden;
     display: flex;
     height:250px;
-    width:410px;
+    width:100%;
     
 }
 .box{
@@ -122,7 +122,7 @@ span{
 .boximg{
     background-color: aliceblue;
     height:250px;
-    width:600px;
+    width:100%;
     background-image:url(images-1/1.jpeg);
 }
 
@@ -200,7 +200,7 @@ span{
    
 }
 .hod{
- margin-left: 65px;   
+ margin-left: 50px;   
 }
 .hod-1{
     font-size:15px;
