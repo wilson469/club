@@ -10,7 +10,7 @@
     display: flex;
     background-color: aliceblue;
     position:sticky;
-    margin-top: 0;
+    top:0;
 }
 
 .logo{
@@ -112,7 +112,7 @@ span{
     overflow-y: hidden;
     display: flex;
     height:250px;
-    width:570px;
+    width:410px;
     
 }
 .box{
@@ -188,36 +188,45 @@ span{
 
 /** heads **/
 .heads{
-    background-color: black;
+    
     height:300px;
     width:100%;
    margin-top:30px;
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   border-radius: 600px;
+   margin-top: 0;
    
+}
+.hod{
+ margin-left: 65px;   
+}
+.hod-1{
+    font-size:15px;
+    font-weight: 600;
+}
+.qual{
+    font-size:small;
+    font-weight: 500;
+    color:brown;
+    margin-left: 10px;
 }
 .headback{
     background-color: white;
     height:150px;
     width:150px; 
     background-size: cover; 
+   border-radius: 300px;
     margin-left:20px; 
     margin-top: 20px;  
 }
 h3{
-    color:white;
-    margin-top: 80px;
-    margin-left: 20px;
-}
-.hod-1{
-    color:brown;
-    font-size: 20px;
-    font-weight: 600;
-}
-.qual{
-    font-size: smaller;
-    font-weight: 500;
+    margin-top: 30px;
+    position: relative;
+    left:16px;
 }
 .partner{
-    font-size:small;
-    margin-top:15px;
-    font-weight: 400;
+    font-size: small;
+    margin-left: 20px;
 }
