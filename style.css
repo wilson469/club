@@ -1,0 +1,223 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+/** nav bar **/
+.navbar{
+    width: 100%;
+    height:90px;
+    display: flex;
+    background-color: aliceblue;
+    position:sticky;
+    margin-top: 0;
+}
+
+.logo{
+    position: absolute;
+    left:4px;
+    background-color: whitesmoke;
+    background-image:url(images-1/logo.jpeg) ;
+    height:70px;
+    width:70px;
+    background-size: cover;  
+    border-radius: 300px;
+    margin-top:6px ;
+}
+.clgname{
+    margin-left: 10px;
+    position:absolute;
+    left:70px;
+}
+.name{
+    font-size: 40px;
+    font-weight: 900;
+    color: red;
+    font-weight: bolder;
+}
+.institute{
+    font-size: x-small;
+    font-weight: 900;
+    margin-top: 0px;
+    color:rgb(4, 4, 98);
+    margin-top:0px;
+}
+.ugc{
+  font-size: x-small; 
+  color: brown;
+  font-weight: 900;
+}
+.rec{
+    font-size: xx-small;
+    font-weight: 900;
+}
+.app{
+    font-size: xx-small;
+    font-weight: 900;
+}
+
+
+/** hero **/
+.club{
+    height:200px;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4px;
+}
+.clublogo{
+    background-image: url(images-1/clublogo.jpeg);
+    height:150px;
+    width:150px;
+    background-size: cover;
+    border-radius: 300px;
+}
+.clubname{
+    font-size: 25px;
+    margin-top: 0%s;
+    font-weight: 900;
+    color:red;
+}
+.branch{
+    font-size: small;
+    font-weight: 900;
+    color:rgb(4, 4, 98);
+}
+
+
+/** news **/
+.news{
+    background-color: red;
+    padding:5px;
+    margin-left:6px;
+    margin-right: 6px;
+    margin-top:10px;
+    
+}
+span{
+    position:absolute;
+    left:10px;
+    flex-shrink: 0;
+    color:white;
+    font-weight: 600; 
+    background-color: red;   
+}
+
+/** slide **/
+.scroll-container{
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+    height:250px;
+    width:570px;
+    
+}
+.box{
+    background-color: blue;
+    margin: 5px;
+}
+.boximg{
+    background-color: aliceblue;
+    height:250px;
+    width:600px;
+    background-image:url(images-1/1.jpeg);
+}
+
+    
+
+
+/** about **/
+.about-1{   
+    font-size: xx-large;
+    font-weight: 600;
+    margin-top: 6px;
+    color:rgb(4, 4, 98);
+    margin-left: 15px;
+    margin-top: 35px;
+   
+}
+.about-2{    
+    font-size:x-large;
+    font-weight: 600;
+    color:brown;
+    margin-left: 15px;
+}
+.about-branch{
+    margin-left: 18px;
+    margin-top: 18px;
+    font-size: x-large;
+    font-weight: 400;
+}
+.matter{
+    font-size:medium;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+
+/** vision **/
+.visionla{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.vision{ 
+    margin-top: 40px; 
+    height:250px;
+    width:250px;
+    box-shadow: 2px 2px 6px 6px rgb(232, 232, 233);
+}
+.backimg{
+    height:250px;
+    width:250px;
+    background-size: cover;
+    
+}
+.visionla-2{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/** heads **/
+.heads{
+    background-color: black;
+    height:300px;
+    width:100%;
+   margin-top:30px;
+   
+}
+.headback{
+    background-color: white;
+    height:150px;
+    width:150px; 
+    background-size: cover; 
+    margin-left:20px; 
+    margin-top: 20px;  
+}
+h3{
+    color:white;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+.hod-1{
+    color:brown;
+    font-size: 20px;
+    font-weight: 600;
+}
+.qual{
+    font-size: smaller;
+    font-weight: 500;
+}
+.partner{
+    font-size:small;
+    margin-top:15px;
+    font-weight: 400;
+}
